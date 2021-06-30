@@ -1,0 +1,16 @@
+.about__credit {
+    font-size: 14px;
+    color: #FD6422;
+}
+
+.about__credit::before {
+    content: "•";
+    color: #FD6422;
+    margin-right: 8px;
+}
+
+.about__credit:first-child {
+    color: #7C7C7C;
+    margin-right: 15px;
+}
+

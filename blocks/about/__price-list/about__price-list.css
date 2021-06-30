@@ -1,0 +1,6 @@
+.about__price-list {
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+    margin: 10px 0 45px 0;
+}
