@@ -1,0 +1,22 @@
+.filter__checkbox-label {
+  display: inline-block;
+  margin: 0 4px 0 0;
+  padding-top: 16px;
+  width: 60px;
+  height: 32px;
+  margin-bottom: 0;
+  font-size: 14px;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  background-color:#3E3B46;
+  border-radius: 4px;
+  text-align: center;
+  align-items: center;
+  color: #9C9AA0;
+}
+
+.filter__checkbox-label:last-of-type {
+    margin: 0;
+}
+

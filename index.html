@@ -19,8 +19,8 @@
             </div>
             <div class="about__text-content">
                 <div class="about__main-info">
-                    <h2 class="about__title">ЖК «‎‎Времена года»‎</h2>
-                    <span class="about__location">Приволжский район</span>
+                    <h2 class="title title_one">ЖК «‎‎Времена года»‎</h2>
+                    <p class="about__location">Приволжский район</p>
                 </div>
                 <div class="about__info">
                     <h3 class="about__header">от 3 700 000 ₽</h3>
@@ -37,9 +37,55 @@
                         одно преимущество ЖК «Времена года». Каждый хочет жить в зеленом дворе, свободном от выхлопных
                         газов.
                     </p>
-                    <p class="about__description"><span class="about__extra-info">Срок сдачи:</span>4 кв. 2020 г. - 3 кв. 2021 г.</p>
+                    <p class="about__description"><span class="about__extra-info">Срок сдачи:</span>4 кв. 2020 г. - 3
+                        кв. 2021 г.</p>
                     <p class="about__description"><span class="about__extra-info">Застройщик:</span>Суварстроит</p>
                 </div>
+            </div>
+        </section>
+        <section class="filter">
+            <div class="filter__content">
+                <h2 class="title title_one">Выбор квартиры</h2>
+                <form class="filter__form">
+                    <div class="filter__checkboxes">
+                        <p class="filter__category">Комнатность</p>
+                        <input class="filter__checkbox" type="checkbox" id="one">
+                        <label class="filter__checkbox-label" for="one">1</label>
+                        <input class="filter__checkbox" type="checkbox" id="two">
+                        <label class="filter__checkbox-label" for="two">2</label>
+                        <input class="filter__checkbox" type="checkbox" id="three">
+                        <label class="filter__checkbox-label" for="three">3</label>
+                        <input class="filter__checkbox" type="checkbox" id="four">
+                        <label class="filter__checkbox-label" for="four">4+</label>
+                        <input class="filter__checkbox" type="checkbox" id="all">
+                        <label class="filter__checkbox-label" for="all">Все</label>
+                    </div>
+
+                    <div class="filter__floor">
+                        <p class="filter__category">Этаж</p>
+                        <select class="filter__floor-list">
+                            <option value="1" class="filter__floor">1</option>
+                            <option value="2" class="filter__floor">2</option>
+                            <option value="3" class="filter__floor">3</option>
+                            <option value="4" class="filter__floor">4</option>
+                            <option value="5" class="filter__floor">5</option>
+                            <option value="6" class="filter__floor">6</option>
+                            <option value="7" class="filter__floor">7</option>
+                            <option value="8" class="filter__floor">8</option>
+                            <option value="9" class="filter__floor">9</option>
+                            <option value="10" class="filter__floor" selected>10</option>10
+                        </select>
+                    </div>
+                    <div class="filter__square">
+                        <p class="filter__category">Площадь(м²)</p>
+                        <input type="text" class="filter__square-value" placeholder="от">
+                        <input type="text" class="filter__square-value" placeholder="до">
+                    </div>
+                    <div class="filter__btn-wrap">
+                        <button class="price-btn filter__btn" type="submit">Узнать стоимость</button>
+                        <button class="filter__reset-btn" type="reset">Сбросить все фильтры</button>
+                    </div>
+                </form>
             </div>
         </section>
     </div>

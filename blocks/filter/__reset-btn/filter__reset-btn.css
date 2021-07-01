@@ -1,0 +1,11 @@
+.filter__reset-btn {
+    color: #8C8C8C;
+    background-color: rgba(0, 0, 0, 0);
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #8C8C8C;
+    display: inline-block;
+    padding: 0;
+    position: absolute;
+    bottom: -24px;
+}

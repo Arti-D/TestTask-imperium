@@ -1,0 +1,6 @@
+.filter__form {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 9px;
+    align-items: flex-end;
+}
