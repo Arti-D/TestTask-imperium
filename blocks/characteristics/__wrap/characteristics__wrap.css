@@ -1,0 +1,4 @@
+.characteristics__wrap {
+    display: flex;
+    flex-flow: wrap;
+}
