@@ -1,0 +1,10 @@
+.results__characteristic {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr) 342px 170px;
+    background-color: #282531;
+    color: white;
+    border-radius: 4px;
+    padding-left: 24px;
+    padding-right: 18px;
+    height: 38px;
+}

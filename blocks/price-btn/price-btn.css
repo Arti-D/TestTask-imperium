@@ -6,3 +6,8 @@
     outline: none;
     border: none;
 }
+
+.price-btn:hover {
+    opacity: .8;
+    cursor: pointer;
+}

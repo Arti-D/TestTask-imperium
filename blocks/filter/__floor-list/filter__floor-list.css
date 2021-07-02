@@ -12,3 +12,7 @@
     border: none;
     width: 80px;
 }
+
+.filter__floor-list:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,14 @@
+.results__view-btn {
+    background-image: url(../../../images/viewbtn.svg);
+    background-repeat: no-repeat;
+    background-color: #F6F6FA;
+    outline: none;
+    border: none;
+    width: 18px;
+    height: 18px;
+    padding: 0;
+}
+
+.results__view-btn_clicked {
+    background-image: url(../../../images/viewbtnclicked.svg);
+}

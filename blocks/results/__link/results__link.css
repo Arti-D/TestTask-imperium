@@ -1,0 +1,9 @@
+.results__link {
+    color: #282531;
+    margin-left: 18px;
+    visibility: hidden;
+}
+
+.results__link_opened {
+    visibility: visible;
+}

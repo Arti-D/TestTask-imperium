@@ -1,0 +1,10 @@
+.results__card {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr) 342px 170px;
+    background-color: #F6F6FA;
+    border-radius: 4px;
+    padding-left: 24px;
+    padding-right: 18px;
+    margin-top: 6px;
+    height: 75px;
+}
