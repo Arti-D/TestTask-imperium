@@ -51,6 +51,6 @@
 @import url(../blocks/footer/__socials/footer__socials.css);
 @import url(../blocks/footer/__icon/footer__icon.css);
 @import url(../blocks/footer/__social-item/footer__social-item.css);
-@import url(../blocks/footer/__watsup/footer__watsup.css);
+@import url(../blocks/watsup/watsup.css);
 @import url(../blocks/location/location.css);
 @import url(../blocks/location/__map/location__map.css);
