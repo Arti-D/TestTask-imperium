@@ -1,0 +1,8 @@
+.footer__link {
+    color: white;
+}
+
+.footer__link:hover {
+    opacity: .8;
+    cursor: pointer;
+}

@@ -1,0 +1,25 @@
+.footer__icon {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+}
+
+.footer__icon_fb {
+    background-image: url(../../../images/facebook-3-24.png);
+}
+
+.footer__icon_inst {
+    background-image: url(../../../images/instagram-24.png);
+}
+
+.footer__icon_vk {
+    background-image: url(../../../images/vk-24.png);
+}
+
+.footer__icon:hover {
+    opacity: .8;
+    cursor: pointer;
+}
