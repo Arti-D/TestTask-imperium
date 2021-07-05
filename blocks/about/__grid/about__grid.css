@@ -4,3 +4,10 @@
     grid-template-rows: 1fr 1fr;
     gap: 4px;
 }
+
+@media (max-width: 767px) {
+    .about__grid {
+        position: relative;
+        display: flex;
+    }
+}

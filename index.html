@@ -17,8 +17,10 @@
                 <img src="./images/house1.jpg" alt="жк времена года фото" class="about__img about__img_one">
                 <img src="./images/house2.jpg" alt="жк времена года фото" class="about__img">
                 <img src="./images/house3.jpg" alt="жк времена года фото" class="about__img">
+                <button class="about__slide-btn prev" type="button">&#8592;</button>
+                <button class="about__slide-btn next" type="button">&#8594;</button>
             </div>
-            <div class="about__text-content">
+            <div class="about__text-content" style="display: none;">
                 <div class="about__main-info">
                     <h2 class="title">ЖК «‎‎Времена года»‎</h2>
                     <p class="about__location">Приволжский район</p>
@@ -44,7 +46,7 @@
                 </div>
             </div>
         </section>
-        <section class="filter">
+        <section class="filter" style="display: none;">
             <div class="content">
                 <h2 class="title">Выбор квартиры</h2>
                 <form class="filter__form">
@@ -90,7 +92,7 @@
             </div>
         </section>
 
-        <section class="results content">
+        <section class="results content" style="display: none;">
             <p class="results__found"><span class="results__found_search">По вашему запросу найдено: </span>6 квартир
             </p>
             <div class="results__characteristic">
@@ -175,7 +177,7 @@
                 </li>
             </ul>
         </section>
-        <section class="characteristics content">
+        <section class="characteristics content" style="display: none;">
             <h2 class="title title_one">Характеристика дома</h2>
             <h3 class="characteristics__list-header">О жилом комплексе</h3>
             <div class="characteristics__wrap">
@@ -258,7 +260,7 @@
                 </div>
             </div>
         </section>
-        <section class="content location">
+        <section class="content location" style="display: none;">
             <h2 class="title">Расположение</h2>
             <div class="location__map" style="position:relative;overflow:hidden;"><a
                     href="https://yandex.ru/maps/43/kazan/?utm_medium=mapframe&utm_source=maps"
@@ -270,7 +272,7 @@
             </div>
 
         </section>
-        <footer class="footer">
+        <footer class="footer" style="display: none;">
             <div class="content">
                 <ul class="footer__info-list">
                     <li class="footer__item">
@@ -295,6 +297,7 @@
         </footer>
         <a href="#" class="watsup"></a>
     </div>
+    <script src="./index.js"></script>
 </body>
 
 </html>

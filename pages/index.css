@@ -12,6 +12,7 @@
 @import url(../blocks/about/__info/about__info.css);
 @import url(../blocks/about/__location/about__location.css);
 @import url(../blocks/about/__header/about__header.css);
+@import url(../blocks/about/__slide-btn/about__slide-btn.css);
 @import url(../blocks/about/__price-list/about__price-list.css);
 @import url(../blocks/about/__credit/about__credit.css);
 @import url(../blocks/about/__description/about__description.css);

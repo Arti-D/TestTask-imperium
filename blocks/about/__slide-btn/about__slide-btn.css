@@ -1,0 +1,32 @@
+.about__slide-btn {
+  display: none;
+  border-radius: 50%;
+  width: 37px;
+  height: 37px;
+  color: white;
+  background-color: rgba(0, 0, 0, .6);
+  border: 0;
+  margin-top: -18.5px;
+  padding: 0;
+  padding-bottom: 3px;
+}
+
+.about__slide-btn:hover {
+    cursor: pointer;
+}
+
+@media (max-width: 767px) {
+  .about__slide-btn {
+    display: block;
+    top: 50%;
+    position: absolute;
+  }
+
+  .about__slide-btn:first-child {
+    left: 11px;
+}
+
+.about__slide-btn:last-child {
+    right: 11px;
+}
+}
