@@ -1,3 +1,11 @@
 .footer__copyright {
     margin: 0;
+    width: max-content;
+}
+
+@media (min-width: 320px) and (max-width:1600px) {
+    .footer__copyright {
+        margin-bottom: 7px;
+        width: 100%;
+    }
 }

@@ -2,6 +2,7 @@ const slides = document.getElementsByClassName("about__img");
 let index = 0;
 
 // вызов функции при маленьком разрешении
+
 const mediaQuery = window.matchMedia("screen and (max-width: 767px)");
 mediaQuery.addListener(doShowSlides);
 doShowSlides(mediaQuery);

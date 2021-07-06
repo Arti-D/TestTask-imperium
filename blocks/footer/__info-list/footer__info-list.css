@@ -5,3 +5,10 @@
     grid-template-columns: repeat(3, 1fr) max-content;
     margin: 0;
 }
+
+@media (max-width: 767px) {
+    .footer__info-list {
+        display: flex;
+        flex-direction: column;
+    }
+}

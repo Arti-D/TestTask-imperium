@@ -1,6 +1,14 @@
 .footer {
-    background-color: #282531;
-    color: #fff;
-    padding: 50px 0;
-    font-size: 16px;
+  background-color: #282531;
+  color: #fff;
+  padding: 50px 0;
+  font-size: 16px;
+  position: relative;
+}
+
+@media (max-width: 767px) {
+  .footer {
+      padding-top: 30px;
+      padding-bottom: 140px;
+  }
 }

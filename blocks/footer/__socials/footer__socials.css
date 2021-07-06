@@ -3,3 +3,9 @@
     display: flex;
     padding: 0;
 }
+
+@media (max-width: 767px) {
+    .footer__socials {
+        margin: 10px auto 0;
+    }
+}
