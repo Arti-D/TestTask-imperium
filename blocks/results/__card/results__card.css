@@ -7,4 +7,6 @@
     padding-right: 18px;
     margin-top: 6px;
     height: 75px;
+    min-width: 1230px;
+    box-sizing: border-box;
 }

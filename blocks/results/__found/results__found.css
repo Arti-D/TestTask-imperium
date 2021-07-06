@@ -1,8 +1,17 @@
 .results__found {
-    margin-bottom: 16px;
-    margin-top: 26px;
+    margin: 0;
 }
 
 .results__found_search {
+    margin: 0;
     color: #979797;
+    margin-right: 7px;
 }
+
+@media (max-width: 767px) {
+    .results__found_search {
+        margin-bottom: 6px;
+        margin-right: 0;
+    }
+  }
+  

@@ -34,7 +34,9 @@
 @import url(../blocks/results/results.css);
 @import url(../blocks/results/__characteristic/results__characteristic.css);
 @import url(../blocks/results/__cards/results__cards.css);
+@import url(../blocks/results/__wrap/results__wrap.css);
 @import url(../blocks/results/__card/results__card.css);
+@import url(../blocks/results/__info/results__info.css);
 @import url(../blocks/results/__option/results__option.css);
 @import url(../blocks/results/__btn/results__btn.css);
 @import url(../blocks/results/__view-btn/results__view-btn.css);
