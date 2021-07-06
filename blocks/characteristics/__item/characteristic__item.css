@@ -4,3 +4,11 @@
     border-bottom: 2px dotted;
     margin-bottom: 13px;
 }
+
+@media (max-width: 767px) {
+    .characteristics__item {
+        justify-content: start;
+        flex-direction: column;
+        border: none;
+    }
+}

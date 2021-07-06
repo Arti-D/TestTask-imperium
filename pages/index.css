@@ -48,6 +48,7 @@
 @import url(../blocks/characteristics/__wrap/characteristics__wrap.css);
 @import url(../blocks/characteristics/__value/characteristics__value.css);
 @import url(../blocks/characteristics/__item/characteristic__item.css);
+@import url(../blocks/characteristics/__about-yard/characteristic__about_yard.css);
 @import url(../blocks/characteristics/__list-header/characteristics__list-header.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__info-list/footer__info-list.css);

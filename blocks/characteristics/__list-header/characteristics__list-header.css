@@ -1,3 +1,9 @@
 .characteristics__list-header {
     margin: 18px 0;
 }
+
+@media (max-width: 767px) {
+    .characteristics__list-header {
+        display: none;
+    }
+}

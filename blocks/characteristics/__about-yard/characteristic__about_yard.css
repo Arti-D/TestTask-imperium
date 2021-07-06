@@ -1,0 +1,5 @@
+@media (max-width: 767px) {
+    .characteristic__about_yard {
+        display: none;
+    }
+}
