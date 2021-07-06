@@ -4,7 +4,7 @@
   width: 37px;
   height: 37px;
   color: white;
-  background-color: rgba(0, 0, 0, .6);
+  background-color: rgba(0, 0, 0, 0.6);
   border: 0;
   margin-top: -18.5px;
   padding: 0;
@@ -12,7 +12,7 @@
 }
 
 .about__slide-btn:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 @media (max-width: 767px) {
@@ -22,11 +22,11 @@
     position: absolute;
   }
 
-  .about__slide-btn:first-child {
+  .about__slide-btn:first-of-type {
     left: 11px;
-}
+  }
 
-.about__slide-btn:last-child {
+  .about__slide-btn:last-of-type {
     right: 11px;
-}
+  }
 }

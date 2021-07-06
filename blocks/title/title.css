@@ -7,3 +7,10 @@
 .title_one {
   margin-bottom: 4px;
 }
+
+@media (max-width: 767px) {
+  .title {
+    font-style: 20px;
+  }
+}
+

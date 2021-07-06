@@ -4,3 +4,10 @@
     list-style: none;
     margin: 10px 0 45px 0;
 }
+
+@media (max-width: 767px) {
+  .about__price-list {
+      flex-direction: column;
+      margin-bottom: 26px;
+  }
+}

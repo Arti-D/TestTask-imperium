@@ -1,0 +1,11 @@
+.about__extra-info-wrap {
+    display: flex;
+    margin-top: 10px;
+}
+
+@media (max-width: 767px) {
+    .about__extra-info-wrap {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+}

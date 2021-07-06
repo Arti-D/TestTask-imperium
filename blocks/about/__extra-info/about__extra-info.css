@@ -1,4 +1,15 @@
 .about__extra-info {
     color: #9F9F9F;
+    margin: 0;
     margin-right: 7px;
+}
+
+.about__extra-info:nth-child(2n) {
+    color: #212121;
+}
+
+@media (max-width: 767px) {
+    .about__extra-info:nth-child(2n) {
+        margin-top: 7px;
+    }
 }

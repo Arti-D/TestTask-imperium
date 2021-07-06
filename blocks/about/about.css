@@ -7,5 +7,6 @@
 @media (max-width: 767) {
     .about {
         padding-top: 146px;
+        padding-bottom: 30px;
     }
 }

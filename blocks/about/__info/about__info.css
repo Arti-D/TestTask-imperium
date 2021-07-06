@@ -1,3 +1,9 @@
 .about__info {
     max-width: 832px;
 }
+
+@media (max-width: 767px) {
+  .about__info {
+      margin-top: 7px;
+  }
+}

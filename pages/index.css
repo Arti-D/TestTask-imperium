@@ -16,6 +16,7 @@
 @import url(../blocks/about/__price-list/about__price-list.css);
 @import url(../blocks/about/__credit/about__credit.css);
 @import url(../blocks/about/__description/about__description.css);
+@import url(../blocks/about/__extra-info-wrap/about__extra-info-wrap.css);
 @import url(../blocks/about/__extra-info/about__extra-info.css);
 @import url(../blocks/filter/filter.css);
 @import url(../blocks/filter/__form/filter__form.css);
