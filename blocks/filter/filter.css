@@ -5,3 +5,10 @@
     padding-bottom: 58px;
     color: white;
 }
+
+@media (max-width: 767px) {
+    .filter {
+        padding-top: 46px;
+        padding-bottom: 40px;
+    }
+}

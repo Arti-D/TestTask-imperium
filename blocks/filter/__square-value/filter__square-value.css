@@ -1,18 +1,29 @@
 .filter__square-value {
-    background-color: #3E3B46;
-    padding: 15px 0 15px 18px;
-    border: hidden;
-    border-radius: 4px;
-    width: 289px;
-    color: white;
-    outline: none;
-    box-sizing: border-box;
+  background-color: #3e3b46;
+  padding: 15px 0 15px 18px;
+  border: hidden;
+  border-radius: 4px;
+  width: 289px;
+  margin-right: 4px;
+  color: white;
+  outline: none;
+  box-sizing: border-box;
 }
 
 .filter__square-value:focus {
-    border: 1px solid white;
+  border: 1px solid white;
 }
 
 .filter__square-value:active {
-    border: 1px solid white;
+  border: 1px solid white;
+}
+
+@media (max-width: 767px) {
+  .filter__square-value {
+    width: 100%;
+  }
+
+  .filter__square-value:first-of-type {
+    margin-right: 14px;
+  }
 }

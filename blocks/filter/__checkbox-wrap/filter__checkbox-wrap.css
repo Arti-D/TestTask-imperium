@@ -1,0 +1,4 @@
+.filter__checkbox-wrap {
+    display: flex;
+    justify-content: space-between;
+}

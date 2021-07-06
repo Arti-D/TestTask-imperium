@@ -21,11 +21,14 @@
 @import url(../blocks/filter/filter.css);
 @import url(../blocks/filter/__form/filter__form.css);
 @import url(../blocks/filter/__category/filter__category.css);
+@import url(../blocks/filter/__checkbox-wrap/filter__checkbox-wrap.css);
 @import url(../blocks/filter/__checkbox/filter__checkbox.css);
 @import url(../blocks/filter/__checkbox-label/filter__checkbox-label.css);
+@import url(../blocks/filter/__floor/filter__floor.css);
 @import url(../blocks/filter/__floor-list/filter__floor-list.css);
 @import url(../blocks/filter/__btn-wrap/filter__btn-wrap.css);
 @import url(../blocks/filter/__square-value/filter__square-value.css);
+@import url(../blocks/filter/__input-wrap/filter__input-wrap.css);
 @import url(../blocks/filter/__btn/filter__btn.css);
 @import url(../blocks/filter/__reset-btn/filter__reset-btn.css);
 @import url(../blocks/results/results.css);

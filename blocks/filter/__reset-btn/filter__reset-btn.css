@@ -14,3 +14,11 @@
     cursor: pointer;
     opacity: .8;
 }
+
+@media (max-width: 767px) {
+    .filter__reset-btn {
+        position: static;
+        margin: 10px auto 0;
+    }
+  }
+  

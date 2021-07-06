@@ -4,7 +4,7 @@
     padding-bottom: 92px;
 }
 
-@media (max-width: 767) {
+@media (max-width: 767px) {
     .about {
         padding-top: 146px;
         padding-bottom: 30px;

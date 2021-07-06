@@ -7,5 +7,6 @@
 @media (max-width: 767px) {
     .about__text-content {
         flex-direction: column;
+        margin-top: 24px;
     }
 }
